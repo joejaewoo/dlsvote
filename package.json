@@ -1,0 +1,20 @@
+{
+  "name": "delightful-live-vote",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "deploy": "npx vercel --prod"
+  },
+  "dependencies": {
+    "@fontsource-variable/noto-sans-kr": "^5.2.10",
+    "@neondatabase/serverless": "1.0.2",
+    "qrcode-generator": "2.0.4"
+  }
+}
